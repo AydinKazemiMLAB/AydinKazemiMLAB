@@ -18,17 +18,24 @@ What I focus on:
 
 ## ◆ Stack
 
-**Backend**<br>
-<img src="https://skillicons.dev/icons?i=py,fastapi,django&theme=dark" alt="Python, FastAPI, Django" />
-
-**Data & messaging**<br>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,rabbitmq,elasticsearch&theme=dark" alt="PostgreSQL, MySQL, SQLite, Redis, RabbitMQ, Elasticsearch" />
-<br>
-<img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white&labelColor=0d1117" alt="Celery" />
-<img src="https://img.shields.io/badge/Django_REST_Framework-05998b?style=for-the-badge&logo=django&logoColor=white&labelColor=0d1117" alt="Django REST Framework" />
-
-**Tooling**<br>
-<img src="https://skillicons.dev/icons?i=docker,git,postman,html,css&theme=dark" alt="Docker, Git, Postman, HTML, CSS" />
+<table>
+  <tr>
+    <td><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=py,fastapi,django&theme=dark" alt="Python, FastAPI, Django" /><img src="assets/icons/drf.svg" alt="Django REST Framework" /></td>
+  </tr>
+  <tr>
+    <td><b>Databases</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite&theme=dark" alt="PostgreSQL, MySQL, SQLite" /></td>
+  </tr>
+  <tr>
+    <td><b>Cache, queues & search</b></td>
+    <td><img src="https://skillicons.dev/icons?i=redis,rabbitmq,elasticsearch&theme=dark" alt="Redis, RabbitMQ, Elasticsearch" /><img src="assets/icons/celery.svg" alt="Celery" /></td>
+  </tr>
+  <tr>
+    <td><b>Tooling</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,git,postman,html,css&theme=dark" alt="Docker, Git, Postman, HTML, CSS" /></td>
+  </tr>
+</table>
 
 ## ◆ Selected work
 
