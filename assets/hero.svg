@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Aydin Kazemi — Backend Developer">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05998b"/>
+      <stop offset="1" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="16" fill="#0d1117"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="none" stroke="#30363d"/>
+
+  <!-- left: identity -->
+  <rect x="64" y="78" width="6" height="144" rx="3" fill="url(#accent)"/>
+  <text x="96" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#e6edf3">Aydin Kazemi</text>
+  <text x="98" y="172" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#05998b" font-weight="600">Backend Developer</text>
+  <text x="98" y="212" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#8b949e">FastAPI · Django REST Framework · PostgreSQL · Redis · Celery</text>
+
+  <!-- right: terminal card -->
+  <g transform="translate(760 62)">
+    <rect width="376" height="176" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="20" cy="20" r="5" fill="#30363d"/>
+    <circle cx="38" cy="20" r="5" fill="#30363d"/>
+    <circle cx="56" cy="20" r="5" fill="#30363d"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+      <text x="20" y="62" fill="#8b949e">$ <tspan fill="#e6edf3">curl -X POST /api/v1/auth/token</tspan></text>
+      <text x="20" y="90" fill="#4ade80">HTTP/1.1 200 OK</text>
+      <text x="20" y="118" fill="#8b949e">{ <tspan fill="#05998b">"token_type"</tspan>: <tspan fill="#e6edf3">"bearer"</tspan>,</text>
+      <text x="36" y="144" fill="#05998b">"status"<tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">"secure &amp; scalable"</tspan><tspan fill="#8b949e"> }</tspan></text>
+    </g>
+  </g>
+</svg>
